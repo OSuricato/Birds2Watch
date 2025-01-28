@@ -1,0 +1,22 @@
+[project]
+name = "birds-2-watch"
+version = "0.1.0"
+description = "A FastAPI backend for tracking your favorite Birds2Watch"
+authors = [
+    {name = "Victor Barbosa",email = "barbosavictor30@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi (>=0.115.7,<0.116.0)",
+    "pydantic (>=2.10.6,<3.0.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "sqlalchemy (>=2.0.37,<3.0.0)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)",
+    "alembic (>=1.14.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
