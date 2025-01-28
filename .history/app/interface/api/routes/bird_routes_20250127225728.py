@@ -1,5 +1,4 @@
 from fastapi import APIRouter, Depends
-from app.interface.api.dependencies import get_bird_use_case
 from app.interface.api.schemas.bird_schema import BirdCreate, BirdResponse
 from app.use_cases.bird.create_bird_use_case import CreateBirdUseCase
 

@@ -1,0 +1,2 @@
+class BirdNotFoundError(Exception):
+    pass
