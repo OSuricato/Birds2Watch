@@ -5,6 +5,7 @@ from app.domain.entities.base_entity import BaseEntity
 
 @dataclass
 class Bird(BaseEntity):
+
     name: str
     species: str
     spotted: bool = False

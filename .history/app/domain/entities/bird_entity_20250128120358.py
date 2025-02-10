@@ -1,3 +1,4 @@
+# app/domain/entities/bird_entity.py
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Optional
@@ -5,6 +6,10 @@ from app.domain.entities.base_entity import BaseEntity
 
 @dataclass
 class Bird(BaseEntity):
+    """
+    Domain entity representing a Bird.
+    Inherits from BaseEntity for common fields (id, etc.)
+    """
     name: str
     species: str
     spotted: bool = False

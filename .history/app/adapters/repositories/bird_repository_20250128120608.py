@@ -1,3 +1,4 @@
+# app/adapters/repositories/sqlalchemy_bird_repository.py
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 from app.domain.entities.bird_entity import Bird
